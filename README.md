@@ -26,5 +26,12 @@ model.fit( ...
 ```
 or see example.py
 
+## Algorithm
+- https://arxiv.org/abs/1810.02340
+
+ - SNIP algorithm determine the weight 'salience' before training.
+
+ - the salience can be obtaiend by followed equation
+- <img src="https://latex.codecogs.com/gif.latex?s&space;=&space;\theta&space;*&space;\bigtriangledown_\theta&space;L(\theta)" title="s = \theta * \bigtriangledown_\theta L(\theta)" />
 ## Note
 This Implementation currently not reduce Train FLOPS.
